@@ -1,0 +1,110 @@
+body {
+  margin: 0;
+  background-color: black;
+  color: white;
+  font-family: "Courier New", Courier, monospace;
+}
+
+.container {
+  margin: 1rem;
+  display: flex;
+  justify-content: space-around;
+  margin: 4rem 1rem;
+  height: 50vh;
+}
+
+@media (max-width: 800px){
+  .container{
+    flex-direction: column;
+  }
+}
+
+
+h1 {
+  margin: 0;
+  font-size: 4rem;
+  box-sizing: border-box;
+}
+
+.title-second-half {
+  color: greenyellow;
+}
+
+.gen-btn {
+  background-color: greenyellow;
+  height: 40px;
+  width: 250px;
+  color: black;
+  margin-top: 20px;
+  font-weight: 900;
+  font-size: large;
+  border-radius: 4px;
+  font-family: "Courier New", Courier, monospace;
+}
+
+.password-area {
+  background-color: #333333;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  vertical-align: middle;
+  padding: 100px 50px 100px 50px;
+  height: 40vh;
+  border-radius: 20px;
+  width: 30vw;
+}
+
+.password-area > h2{
+  margin: 0;
+  box-sizing: border-box;
+  color: gray;
+}
+
+.gen-pwd-1{
+  display: flex;
+  align-items: center;
+}
+
+.gen-pwd-2{
+  display: flex;
+  align-items: center;
+
+}
+
+.password-area button{
+  height: 40px;
+  margin-left: 4px;
+  border-radius: 4px;
+  background-color: greenyellow;
+
+}
+
+.password-area  p {
+  background-color: white;
+  color: black;
+  padding: 10px 15px 10px 15px;
+  width: 8rem;
+  text-align: center;
+  font-weight: bold;
+  border-radius: 4px;
+}
+
+.keywords-area{
+    margin-bottom: 30px;
+    margin-top: 30px;
+}
+
+.keywords-area > input {
+  width: 8rem;
+  height: 1.5rem;
+  border-radius: 3px;
+  font-family: "Courier New", Courier, monospace;
+  font-weight: bold;
+}
+
+.keywords-area > button {
+  height: 1.9rem;
+  background-color: greenyellow;
+  border-radius: 3px;
+}
